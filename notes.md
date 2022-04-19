@@ -1,6 +1,6 @@
 Inspiration
 
-I work in a large organization with a large variety of cloud/compute platforms and implementations where we have to deploy applications. Depending on the compute platform chosen, various governance/security teams provide gaurdrails which adds varying degrees of time, cost, and stress to this process and CI/CD work generally. This generates confusion about which cloud platforms are easier or harder to use in the new(er) self service era. This site is a way for me to try out new vendor products express an opinion about which are the easiest to use in their native form. 
+I work in a large organization with a large variety of cloud/compute platforms with different implementations where we have to deploy applications. Depending on the compute platform chosen, various governance/security teams provide gaurdrails which adds varying degrees of time, cost, and stress to this process and CI/CD work generally. This generates confusion about which cloud platforms are easier or harder to use in the new(er) self service era. This site is a way for me to try out new vendor products express an opinion about which are the easiest to use in their native form. 
 
 How this site works
 I choose one or more of the sample apps listed below and attempt to deploy them to a vendors platform. Using that experience, I provide a short editorial on how easy the product is to use and list the steps needed to deploy the sample app. 
