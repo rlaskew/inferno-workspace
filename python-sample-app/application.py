@@ -1,10 +1,13 @@
 import logging
+import os 
 
 from flask import Flask
 
 
 application = Flask(__name__)
 
+## https://realpython.com/python-command-line-arguments/
+## PORT = sys.argv[1]
 
 @application.route('/')
 def hello():
@@ -20,4 +23,4 @@ def server_error(e):
 if __name__ == '__main__':
     # Setting debug to True enables debug output. This line should be
     # removed before deploying a production app.
-    application.run('localhost',5000,debug=True)
+    application.run('0.0.0.0',os.environ.get('PORT'),debug=True)
